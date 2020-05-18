@@ -19,11 +19,11 @@ class MainActivity : AppCompatActivity() {
             } else
             run {
                 if (numeroSecreto.toString() == numeroIngresado.text.toString()) {
-                    Toast.makeText(this, "Acertaste a la primera", Toast.LENGTH_LONG).show()
+                    Toast.makeText(this, "Acertaste", Toast.LENGTH_LONG).show()
                     lblNumeroSecreto.text = numeroSecreto.toString()
                 } else
                 {
-                    if (numeroSecreto.toString() >= numeroIngresado.text.toString())
+                    if (numeroSecreto.toString() > numeroIngresado.text.toString())
                     run {
                     Toast.makeText(this, "El número es mayor, intente nuevamente", Toast.LENGTH_LONG).show()
                 } else {
