@@ -1,0 +1,2 @@
+rootProject.name='adivinaNumero'
+include ':app'
