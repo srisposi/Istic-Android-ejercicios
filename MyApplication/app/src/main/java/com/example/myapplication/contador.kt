@@ -15,13 +15,13 @@ class contador : AppCompatActivity() {
 
         btnSumar.setOnClickListener {
             contador = contador +1
-            lblContador.text = contador.toString()
+            //lblContador.text=contador.toString()
         }
 
 
-        btnReset.setOnClickListener {
+        btnReset.setOnClickListener{
             contador = 0
-            lblContador.text = ""
+            //lblContador.text = "En Cero"
         }
 
         btnAyuda.setOnClickListener {

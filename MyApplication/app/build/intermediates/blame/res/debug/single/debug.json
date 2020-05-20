@@ -1,11 +1,15 @@
 [
     {
-        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ayudacontador.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\src\\main\\res\\drawable\\ayudacontador.png"
     },
     {
         "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
         "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
@@ -18,6 +22,10 @@
     {
         "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ayuda_quien_soy.xml.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\src\\main\\res\\layout\\activity_ayuda_quien_soy.xml"
     },
     {
         "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_quien_soy.png.flat",
@@ -124,6 +132,10 @@
         "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\src\\main\\res\\drawable\\loguear.png"
     },
     {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btnsuma.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\src\\main\\res\\drawable\\btnsuma.png"
+    },
+    {
         "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_volverinicio.png.flat",
         "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\src\\main\\res\\drawable\\volverinicio.png"
     },
@@ -148,6 +160,10 @@
         "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ayudaquiensoy.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\src\\main\\res\\drawable\\ayudaquiensoy.png"
+    },
+    {
         "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_jugar.png.flat",
         "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\src\\main\\res\\drawable\\jugar.png"
     },
@@ -158,5 +174,9 @@
     {
         "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fondosandroid.png.flat",
         "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\src\\main\\res\\drawable\\fondosandroid.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ayuda_contador.xml.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\src\\main\\res\\layout\\activity_ayuda_contador.xml"
     }
 ]

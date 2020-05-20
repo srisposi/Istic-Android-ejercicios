@@ -25,10 +25,7 @@ class registro : AppCompatActivity() {
         }
 
         btnQuienSoy.setOnClickListener {
-            lblNombreQuienSoy.text.toString()="SERGIO DANIEL"
-            lblApellidoQuienSoy.text.toString()="RISPOSI"
-            lblLegajoQuienSoy.text.toString()="32411"
-            lblGitHubQuienSoy.text.toString()="https://github.com/srisposi/Istic-Android-ejercicios"
+
             val actividadQuienSoy:Intent = Intent(this,quienSoy::class.java)
             startActivity(actividadQuienSoy)
         }

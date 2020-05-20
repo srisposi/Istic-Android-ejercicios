@@ -19,6 +19,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.myapplication.ayudaQuienSoy" />
+        <activity android:name="com.example.myapplication.ayudaContador" />
         <activity android:name="com.example.myapplication.adivinaNumero" />
         <activity android:name="com.example.myapplication.contador" />
         <activity android:name="com.example.myapplication.quienSoy" />

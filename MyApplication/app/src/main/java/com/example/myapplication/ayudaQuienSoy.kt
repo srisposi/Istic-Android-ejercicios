@@ -9,7 +9,7 @@ class ayudaQuienSoy : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_ayudaQuienSoy)
+        setContentView(R.layout.activity_quien_soy)
 
         btnVolver6.setOnClickListener {
             var actividadAyudaQuienSoy:Intent=Intent(this,quienSoy::class.java)
