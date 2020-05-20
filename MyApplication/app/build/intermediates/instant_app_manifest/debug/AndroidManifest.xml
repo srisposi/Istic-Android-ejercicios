@@ -18,7 +18,9 @@
         android:label="splash"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.myapplication.contador" />
         <activity android:name="com.example.myapplication.quienSoy" />
         <activity android:name="com.example.myapplication.registro" >
             <intent-filter>

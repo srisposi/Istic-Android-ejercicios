@@ -630,11 +630,14 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable ayuda
 drawable contador
+drawable fondosandroid
+drawable fotoperfil
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable jugar
 drawable login
 drawable loguear
+drawable mandalafondo
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -652,6 +655,7 @@ drawable quien_soy
 drawable splash
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable volverinicio
 drawable web_hi_res_512
 id ALT
 id CTRL
@@ -692,7 +696,8 @@ id btnContador
 id btnJugar
 id btnLoguear
 id btnQuienSoy
-id btnRegistro
+id btnVolver
+id button
 id buttonPanel
 id center
 id center_horizontal
@@ -735,6 +740,10 @@ id info
 id invisible
 id italic
 id lblNombreRegistro
+id lblNombreRegistro2
+id lblNombreRegistro3
+id lblNombreRegistro4
+id lblNombreRegistro5
 id lblPassword
 id left
 id line1
@@ -804,6 +813,9 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
+id txtGitHub
+id txtLegajo
+id txtNombre
 id uniform
 id up
 id useLogo
@@ -843,6 +855,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_contador
 layout activity_loguear
 layout activity_main
 layout activity_quien_soy
