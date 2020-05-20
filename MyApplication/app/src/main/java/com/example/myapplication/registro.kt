@@ -17,7 +17,7 @@ class registro : AppCompatActivity() {
         //startActivity(actividad)
 
     btnRegistro.setOnClickListener{
-        val volver2 = Intent(this,MainActivity::class.java)
+        val volver2:Intent = Intent(this,MainActivity::class.java)
         Toast.makeText(this,"REGISTRO CORRECTO",Toast.LENGTH_LONG).show()
         startActivity(volver2)
     }
