@@ -7,21 +7,21 @@ import kotlinx.android.synthetic.main.activity_contador.*
 
 class contador : AppCompatActivity() {
 
-    var contador:Int=0
+    var contadorA =0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_contador)
 
-        btnSumar.setOnClickListener {
-            contador = contador +1
-//            this.lblContador.text= $contador.toString()
+        btnSumar.setOnClickListener{
+            this.contadorA++
+            txtContador.text=this.contadorA.toString()
         }
 
 
         btnReset.setOnClickListener{
-            contador = 0
-//            this.lblContador.text = ""
+            contadorA = 0
+            txtContador.text = ""
         }
 
         btnAyuda.setOnClickListener {
