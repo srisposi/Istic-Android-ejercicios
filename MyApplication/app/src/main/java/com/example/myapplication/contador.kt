@@ -29,5 +29,10 @@ class contador : AppCompatActivity() {
             startActivity(ayudaIntent)
         }
 
+        btnVolver4.setOnClickListener {
+            val volver4:Intent=Intent(this, MainActivity::class.java)
+            startActivity(volver4)
+        }
+
     }
 }
