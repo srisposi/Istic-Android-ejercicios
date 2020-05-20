@@ -8,7 +8,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        Thread.sleep(20000)//Detengo la aplicación para poder ver el Splash Screen
+        //Thread.sleep(2000)//Detengo la aplicación para poder ver el Splash Screen
         setTheme(R.style.AppTheme)//Nos trae el Splash Screen
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
