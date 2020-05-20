@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ayudaPaginaPrincipal">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="444dp"
+        android:layout_height="529dp"
+        android:background="@drawable/mandalafondo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054"
+        app:srcCompat="@drawable/ayudapaginicial" />
+
+    <Button
+        android:id="@+id/btnVolverPaginaInicio"
+        android:layout_width="425dp"
+        android:layout_height="61dp"
+        android:background="@drawable/mandalafondo"
+        android:text="VOLVER INICIO"
+        android:textAlignment="center"
+        android:textColor="#FFFBFB"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+</android.support.constraint.ConstraintLayout>
