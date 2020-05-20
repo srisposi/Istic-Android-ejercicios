@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_orange_dark"
+    android:background="@drawable/mandalafondo"
     tools:context=".registro">
 
     <Button
@@ -18,6 +18,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.873" />
+
+    <Button
+        android:id="@+id/btnRegistro"
+        android:layout_width="155dp"
+        android:layout_height="65dp"
+        android:background="@drawable/web_hi_res_512"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.855"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.871" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -43,18 +55,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.929"
         app:srcCompat="@drawable/password" />
-
-    <Button
-        android:id="@+id/btnVolver"
-        android:layout_width="155dp"
-        android:layout_height="65dp"
-        android:background="@drawable/web_hi_res_512"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.878"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.871" />
 
     <EditText
         android:id="@+id/lblPassword"

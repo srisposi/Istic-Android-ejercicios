@@ -18,7 +18,7 @@
         app:layout_constraintHorizontal_bias="0.474"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnContador"
-        app:layout_constraintVertical_bias="0.258" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btnAyuda"
@@ -28,42 +28,43 @@
         android:background="@drawable/ayuda"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnJugar"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.496" />
 
     <Button
         android:id="@+id/btnLoguear"
         android:layout_width="284dp"
         android:layout_height="61dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="136dp"
         android:background="@drawable/loguear"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnVolver" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnContador"
         android:layout_width="276dp"
         android:layout_height="69dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="48dp"
         android:background="@drawable/contador"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.518"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnLoguear" />
 
     <Button
-        android:id="@+id/btnVolver"
+        android:id="@+id/btnRegistro2"
         android:layout_width="291dp"
         android:layout_height="59dp"
         android:background="@drawable/web_hi_res_512"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.05" />
+        app:layout_constraintVertical_bias="0.08" />
 
 </android.support.constraint.ConstraintLayout>

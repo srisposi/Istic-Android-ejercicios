@@ -28,6 +28,10 @@
         "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\src\\main\\res\\layout\\activity_contador.xml"
     },
     {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_adivina_numero.xml.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\src\\main\\res\\layout\\activity_adivina_numero.xml"
+    },
+    {
         "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_contador.png.flat",
         "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\src\\main\\res\\drawable\\contador.png"
     },
@@ -106,6 +110,10 @@
     {
         "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_splash.jpg.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\src\\main\\res\\mipmap-anydpi-v26\\splash.jpg"
     },
     {
         "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash.xml.flat",

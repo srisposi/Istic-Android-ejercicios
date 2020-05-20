@@ -695,8 +695,12 @@ id btnAyuda
 id btnContador
 id btnJugar
 id btnLoguear
+id btnLoguear2
 id btnQuienSoy
-id btnVolver
+id btnRegistro
+id btnRegistro2
+id btnVerificar
+id btnVolver3
 id button
 id buttonPanel
 id center
@@ -744,6 +748,7 @@ id lblNombreRegistro2
 id lblNombreRegistro3
 id lblNombreRegistro4
 id lblNombreRegistro5
+id lblNumeroSecreto
 id lblPassword
 id left
 id line1
@@ -759,6 +764,7 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id numeroIngresado
 id packed
 id parent
 id parentPanel
@@ -813,6 +819,7 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
+id txtApellido
 id txtGitHub
 id txtLegajo
 id txtNombre
@@ -855,6 +862,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_adivina_numero
 layout activity_contador
 layout activity_loguear
 layout activity_main
@@ -873,6 +881,7 @@ layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
+mipmap splash
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
