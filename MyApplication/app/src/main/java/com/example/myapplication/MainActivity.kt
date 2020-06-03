@@ -41,3 +41,42 @@ class MainActivity : AppCompatActivity() {
 
 
 }
+
+private fun registroUsuario()
+{
+
+    try {
+        val archivo = OutputStreamWriter(openFileOutput("registro.txt", Activity.MODE_APPEND))
+        archivo.write(txtNombre.text.toString()+"=>"+ txtNombre.text.toString()+"\n")
+        archivo.flush()
+        archivo.close()
+    } catch (e: IOException) {
+
+    }
+}
+private fun loginUsuario()
+{
+    if (fileList().contains("registro.txt")) {
+        try {
+            val archivo = InputStreamReader(openFileInput("registro.txt"))
+            val br = BufferedReader(archivo)
+            var linea = br.readLine()
+            while (linea != null) {
+                //pepito=>1234 esto tiene linea
+                val arrayDatos=linea.split("=>")
+                if(arrayDatos[0]=="pepito" && arrayDatos[1]=="1234")
+                {
+                    break
+                }
+                linea = br.readLine()
+            }
+
+
+            br.close()
+            archivo.close()
+
+        } catch (e: IOException) {
+        }
+    }
+
+}
