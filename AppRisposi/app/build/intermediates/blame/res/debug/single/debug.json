@@ -1,11 +1,15 @@
 [
     {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ok.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-xxxhdpi\\ok.png"
+    },
+    {
         "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_sumar.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-hdpi\\sumar.png"
     },
     {
         "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_background.xml.flat",
@@ -16,24 +20,12 @@
         "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\drawable\\btnjugar.png"
     },
     {
-        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btnlogin.png.flat",
-        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\drawable\\btnlogin.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_screen_ayuda_contador.xml.flat",
-        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\layout\\activity_screen_ayuda_contador.xml"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btnayuda.png.flat",
-        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\drawable\\btnayuda.png"
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_sumar.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-xxhdpi\\sumar.png"
     },
     {
         "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_registro.png.flat",
         "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\drawable\\registro.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_screenayuda.png.flat",
-        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\drawable\\screenayuda.png"
     },
     {
         "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ayuda.png.flat",
@@ -44,8 +36,128 @@
         "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\drawable\\volver.png"
     },
     {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_mas.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-mdpi\\mas.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ok.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-xxhdpi\\ok.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_contador.xml.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\layout\\activity_contador.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_reset.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-hdpi\\reset.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mas.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\drawable\\mas.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_reset.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-xxxhdpi\\reset.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_menos.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-xxhdpi\\menos.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_sumar.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-xhdpi\\sumar.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_screen_ayuda.xml.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\layout\\activity_screen_ayuda.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ok.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-mdpi\\ok.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ok.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-xhdpi\\ok.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_menos.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-hdpi\\menos.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_menos.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-mdpi\\menos.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btncontador.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\drawable\\btncontador.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ok.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-hdpi\\ok.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_reset.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-xhdpi\\reset.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_menos.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-xhdpi\\menos.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_mas.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-hdpi\\mas.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btnlogin.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\drawable\\btnlogin.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_sumar.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-xxxhdpi\\sumar.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_screen_ayuda_contador.xml.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\layout\\activity_screen_ayuda_contador.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_mas.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-xxxhdpi\\mas.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btnayuda.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\drawable\\btnayuda.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_screenayuda.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\drawable\\screenayuda.png"
+    },
+    {
         "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_sumar.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-mdpi\\sumar.png"
     },
     {
         "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_screenayudacontador.png.flat",
@@ -54,10 +166,6 @@
     {
         "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btnregistro.png.flat",
         "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\drawable\\btnregistro.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
@@ -72,28 +180,8 @@
         "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\drawable\\fondoapp.jpg"
     },
     {
-        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_contador.xml.flat",
-        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\layout\\activity_contador.xml"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo_risposi.jpg.flat",
-        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\drawable\\logo_risposi.jpg"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mas.png.flat",
-        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\drawable\\mas.png"
-    },
-    {
         "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_reset.png.flat",
@@ -102,6 +190,18 @@
     {
         "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_reset.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-mdpi\\reset.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_menos.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-xxxhdpi\\menos.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_reset.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-xxhdpi\\reset.png"
     },
     {
         "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_menos.png.flat",
@@ -128,23 +228,23 @@
         "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\drawable\\login.png"
     },
     {
-        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_screen_ayuda.xml.flat",
-        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\layout\\activity_screen_ayuda.xml"
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo_risposi.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\drawable\\logo_risposi.png"
     },
     {
         "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_mas.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-xxhdpi\\mas.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_mas.png.flat",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-xhdpi\\mas.png"
+    },
+    {
         "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ok.png.flat",
         "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\drawable\\ok.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btncontador.png.flat",
-        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\drawable\\btncontador.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     }
 ]

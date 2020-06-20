@@ -1,4 +1,4 @@
-#Sat Jun 20 06:20:43 ART 2020
+#Sat Jun 20 17:33:26 ART 2020
 base.0=C\:\\Users\\Usuario\\AndroidStudioProjects\\EJERCICIOS-ISTIC\\Istic-Android-ejercicios\\AppRisposi\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
