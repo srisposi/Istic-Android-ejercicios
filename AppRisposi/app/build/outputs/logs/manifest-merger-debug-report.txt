@@ -35,7 +35,7 @@ INJECTED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Andr
 INJECTED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:2:1-31:12
 INJECTED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:2:1-31:12
 	package
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:3:5-37
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:3:5-40
 		INJECTED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -70,19 +70,19 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Usuario\.g
 		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:11:9-40
-activity#com.example.AppRisposi.ScreenAyudaContador
+activity#com.example.menuprincipal.ScreenAyudaContador
 ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:12:9-66
 	android:name
 		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:12:19-54
-activity#com.example.AppRisposi.Contador
+activity#com.example.menuprincipal.Contador
 ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:14:9-46
 	android:name
 		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:14:19-43
-activity#com.example.AppRisposi.ScreenAyuda
+activity#com.example.menuprincipal.ScreenAyuda
 ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:15:9-49
 	android:name
 		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:15:19-46
-activity#com.example.AppRisposi.MainActivity
+activity#com.example.menuprincipal.MainActivity
 ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:17:9-28:20
 	android:theme
 		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:20:13-47

@@ -19,11 +19,11 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.AppRisposi.ScreenAyudaContador" />
-        <activity android:name="com.example.AppRisposi.Contador" />
-        <activity android:name="com.example.AppRisposi.ScreenAyuda" />
+        <activity android:name="com.example.menuprincipal.ScreenAyudaContador" />
+        <activity android:name="com.example.menuprincipal.Contador" />
+        <activity android:name="com.example.menuprincipal.ScreenAyuda" />
         <activity
-            android:name="com.example.AppRisposi.MainActivity"
+            android:name="com.example.menuprincipal.MainActivity"
             android:theme="@style/SplashTheme" > <!-- Aquí llamamos nuestro tema -->
 
             <intent-filter>

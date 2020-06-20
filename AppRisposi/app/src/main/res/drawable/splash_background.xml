@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
 
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="color/colorPrimary" /><!-- color de fondo -->
+    <item android:drawable="@android:color/background_dark"/><!-- color de fondo -->
     <item>
         <bitmap
             android:gravity="center"
@@ -10,4 +9,4 @@
     </item>
 </layer-list>
 
-</selector>
+

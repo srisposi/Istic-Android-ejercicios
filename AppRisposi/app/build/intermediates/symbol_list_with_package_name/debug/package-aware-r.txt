@@ -639,6 +639,7 @@ drawable fotoapk
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable login
+drawable logo_risposi
 drawable mas
 drawable menos
 drawable notification_action_background
@@ -658,6 +659,7 @@ drawable registro
 drawable reset
 drawable screenayuda
 drawable screenayudacontador
+drawable splash_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable volver
@@ -1101,6 +1103,7 @@ style RtlOverlay_Widget_AppCompat_Search_DropDown_Text
 style RtlOverlay_Widget_AppCompat_SearchView_MagIcon
 style RtlUnderlay_Widget_AppCompat_ActionButton
 style RtlUnderlay_Widget_AppCompat_ActionButton_Overflow
+style SplashTheme
 style TextAppearance_AppCompat
 style TextAppearance_AppCompat_Body1
 style TextAppearance_AppCompat_Body2
