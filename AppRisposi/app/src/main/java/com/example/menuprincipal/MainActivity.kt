@@ -14,12 +14,12 @@ class MainActivity : AppCompatActivity() {
 
         Thread.sleep(2000)
         setTheme(R.style.AppTheme)
-
+/*
         btnRegistro.setOnClickListener {
             val registroInten = Intent(this,Registro::class.java)
             startActivity(registroInten)
         }
-
+*/
         btnAyuda.setOnClickListener {
             val screenAyudaIntent = Intent(this, ScreenAyuda::class.java)
             startActivity(screenAyudaIntent)

@@ -1,5 +1,5 @@
 //package com.example.FirebasePrueba
-package com.example.menuprincipal
+/*package com.example.menuprincipal
 
 import android.annotation.SuppressLint
 //import androidx.appcompat.app.AppCompatActivity
@@ -127,7 +127,8 @@ data class Post(
     }
     // [END post_to_map]
 }
-// [END post_class]
+ [END post_class]
+ */
 
 
 
