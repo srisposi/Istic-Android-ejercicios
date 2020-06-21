@@ -15,7 +15,7 @@
 12        android:allowBackup="true"
 12-->C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
-13-->[com.android.support:support-compat:28.0.0] C:\Users\Usuario\.gradle\caches\transforms-2\files-2.1\a5607d433953e0ce328b2af13bacb5fa\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+13-->[com.android.support:support-compat:28.0.0] C:\Users\Usuario\.gradle\caches\transforms-2\files-2.1\d117f3091834d04ce8743c8bec9ece60\support-compat-28.0.0\AndroidManifest.xml:22:18-91
 14        android:debuggable="true"
 15        android:extractNativeLibs="false"
 16        android:icon="@mipmap/ic_launcher"

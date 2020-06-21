@@ -8,16 +8,32 @@
     tools:context=".Contador">
 
     <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:background="@android:color/holo_blue_dark"
+        android:backgroundTint="@color/colorAccent"
+        android:text="GUARDAR"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.150"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.91" />
+
+    <Button
         android:id="@+id/btnReiniciar"
         android:layout_width="110dp"
         android:layout_height="90dp"
         android:background="@drawable/reset"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.794"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.617" />
+        app:layout_constraintVertical_bias="0.615" />
 
     <Button
         android:id="@+id/btnSube"
@@ -53,19 +69,19 @@
         app:layout_constraintHorizontal_bias="0.87"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.912" />
+        app:layout_constraintVertical_bias="0.91" />
 
     <Button
         android:id="@+id/btnVolver"
-        android:layout_width="140dp"
-        android:layout_height="80dp"
+        android:layout_width="110dp"
+        android:layout_height="90dp"
         android:background="@drawable/volver"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintHorizontal_bias="0.169"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.914" />
+        app:layout_constraintVertical_bias="0.615" />
 
     <TextView
         android:id="@+id/lblContador"

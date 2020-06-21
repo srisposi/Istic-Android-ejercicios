@@ -9,16 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ScreenAyudaContador"></activity>
-
+        <activity android:name=".Registro"></activity>
+        <activity android:name=".ScreenAyudaContador" />
         <activity android:name=".Contador" />
         <activity android:name=".ScreenAyuda" />
-
         <activity
             android:name=".MainActivity"
-
-            android:theme="@style/SplashTheme"> <!--Aquí llamamos nuestro tema -->
-
+            android:theme="@style/SplashTheme"> <!-- Aquí llamamos nuestro tema -->
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
