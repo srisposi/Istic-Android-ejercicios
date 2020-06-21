@@ -20,6 +20,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.menuprincipal.Registro" />
         <activity android:name="com.example.menuprincipal.ScreenAyudaContador" />
         <activity android:name="com.example.menuprincipal.Contador" />
         <activity android:name="com.example.menuprincipal.ScreenAyuda" />

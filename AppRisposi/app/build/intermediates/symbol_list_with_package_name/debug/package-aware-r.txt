@@ -697,12 +697,15 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btnAtras
 id btnAyuda
 id btnBaja
 id btnContador
+id btnGuardar
 id btnJugar
 id btnLogin
 id btnOk
+id btnRegistrar
 id btnRegistro
 id btnReiniciar
 id btnSube
@@ -818,6 +821,8 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
+id txtName
+id txtPassword
 id uniform
 id up
 id useLogo
@@ -859,6 +864,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_contador
 layout activity_main
+layout activity_registro
 layout activity_screen_ayuda
 layout activity_screen_ayuda_contador
 layout notification_action
