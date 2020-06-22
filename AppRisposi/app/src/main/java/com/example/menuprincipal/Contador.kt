@@ -3,12 +3,13 @@ package com.example.menuprincipal
 import android.content.Intent
 //import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+//import android.support.v7.app.AppCompatActivity
 import android.view.Gravity
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_contador.*
 
 class Contador : AppCompatActivity() {

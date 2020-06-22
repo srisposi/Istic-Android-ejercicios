@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,8 +9,8 @@
 
     <Button
         android:id="@+id/btnGuardar"
-        android:layout_width="140dp"
-        android:layout_height="80dp"
+        android:layout_width="48dp"
+        android:layout_height="71dp"
         android:background="@android:color/holo_blue_dark"
         android:backgroundTint="@color/colorAccent"
         android:text="GUARDAR"
@@ -97,4 +97,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.076" />
-</android.support.constraint.ConstraintLayout>
+</androidx.support.constraint.ConstraintLayout>
