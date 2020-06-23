@@ -882,7 +882,6 @@ id forever
 id gone
 id group_divider
 id groups
-id guideline
 id home
 id homeAsUp
 id icon
