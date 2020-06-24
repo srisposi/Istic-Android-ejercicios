@@ -2,6 +2,7 @@ package com.example.menuprincipal
 //package com.example.FirebasePrueba
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -25,8 +26,8 @@ class Registro : AppCompatActivity() {
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registro)
-        val txtName=findViewById<TextView>(R.id.txtName)
-        val txtPassword=findViewById<TextView>(R.id.txtPassword)
+        val txtName = findViewById<TextView>(R.id.txtName)
+        val txtPassword = findViewById<TextView>(R.id.txtPassword)
         //val txtUsuario=findViewById<TextView>(R.id.txtUsuario)
         //val txtDestino=findViewById<TextView>(R.id.txtDestino)
 
@@ -34,7 +35,7 @@ class Registro : AppCompatActivity() {
             .child("mensajes")
 	    Esta es la parte donde estoy escuchando */
 
-        val btnRegistrar=findViewById<Button>(R.id.btnRegistrar)
+        val btnRegistrar = findViewById<Button>(R.id.btnRegistrar)
 
         btnRegistrar.setOnClickListener {
             // [START initialize_database_ref]
@@ -48,8 +49,8 @@ class Registro : AppCompatActivity() {
 
             }
 
-            val name=this.txtName.getText().toString()
-            val password=this.txtPassword.getText().toString()
+            val name = this.txtName.getText().toString()
+            val password = this.txtPassword.getText().toString()
             //val usuario=this.txtUsuario.getText().toString()
             //val mensaje= this.txtMensaje.getText().toString()
             val post = Post(name, password)
@@ -60,10 +61,20 @@ class Registro : AppCompatActivity() {
             childUpdates["/mensajes_usuario/$name/$password/$key"] = postValues
 
             database.updateChildren(childUpdates)
+
+
+            val btnAtras = findViewById<Button>(R.id.btnAtras)
+            btnAtras.setOnClickListener {
+                val atras = Intent(this, MainActivity::class.java)
+                startActivity(atras)
+            }
+
+
         }
 
-
     }
+
+    /*
     public override fun onStart() {
         super.onStart()
 
@@ -82,6 +93,8 @@ class Registro : AppCompatActivity() {
                 // [END_EXCLUDE]
             }
 
+
+
             @SuppressLint("WrongConstant")
             override fun onCancelled(databaseError: DatabaseError) {
                 // Getting Post failed, log a message
@@ -90,6 +103,9 @@ class Registro : AppCompatActivity() {
                 // [END_EXCLUDE]
             }
         }
+
+
+
         postReference.addValueEventListener(postListener)
         // [END post_value_event_listener]
 
@@ -98,38 +114,39 @@ class Registro : AppCompatActivity() {
 
         // Listen for comments
 
+        }
+
     }
-}
+*/
 
 
+    // [START post_class]
+    @IgnoreExtraProperties
+    data class Post(
+        var name: String? = "",
+        var password: String? = "",
+        var destino: String? = "",
+        var mensaje: String? = "",
+        var starCount: Int = 0,
+        var stars: MutableMap<String, Boolean> = HashMap()
+    ) {
 
-// [START post_class]
-@IgnoreExtraProperties
-data class Post(
-    var name: String? = "",
-    var password: String? = "",
-    var destino: String? = "",
-    var mensaje: String? = "",
-    var starCount: Int = 0,
-    var stars: MutableMap<String, Boolean> = HashMap()
-) {
+        // [START post_to_map]
+        @Exclude
+        fun toMap(): Map<String, Any?> {
+            return mapOf(
+                "Nombre" to name,
+                "Contraseña" to password
+                //"destino" to destino,
+                //"mensaje" to mensaje
 
-    // [START post_to_map]
-    @Exclude
-    fun toMap(): Map<String, Any?> {
-        return mapOf(
-            "Nombre" to name,
-            "Contraseña" to password
-            //"destino" to destino,
-            //"mensaje" to mensaje
-
-        )
+            )
+        }
+        // [END post_to_map]
     }
-    // [END post_to_map]
+    //[END post_class]
+
 }
- //[END post_class]
-
-
 
 
 
