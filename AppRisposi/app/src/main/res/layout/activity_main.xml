@@ -10,9 +10,14 @@
 
     <Button
         android:id="@+id/btnAyuda"
-        android:layout_width="145dp"
-        android:layout_height="85dp"
-        android:background="@drawable/btnayuda"
+        android:layout_width="231dp"
+        android:layout_height="83dp"
+
+        android:background="@drawable/botonmio"
+        android:text="AYUDA"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.545"
@@ -24,13 +29,14 @@
         android:id="@+id/btnContador"
         android:layout_width="145dp"
         android:layout_height="85dp"
+        android:radius="50dp"
         android:background="@drawable/btncontador"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.894"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.576" />
+        app:layout_constraintVertical_bias="0.576"/>
 
     <Button
         android:id="@+id/btnJugar"
@@ -84,3 +90,5 @@
         tools:ignore="UnknownId" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+

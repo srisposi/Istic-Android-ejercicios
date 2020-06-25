@@ -712,6 +712,7 @@ drawable btncontador
 drawable btnjugar
 drawable btnlogin
 drawable btnregistro
+drawable circle
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused

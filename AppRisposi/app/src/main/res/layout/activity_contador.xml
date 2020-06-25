@@ -25,10 +25,49 @@
         app:layout_constraintVertical_bias="0.724" />
 
     <Button
+        android:id="@+id/btnBaja"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:background="@drawable/circle"
+        android:text="-"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.813"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <Button
+        android:id="@+id/btnSube"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:background="@drawable/circle"
+        android:text="+"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.347" />
+
+    <Button
         android:id="@+id/btnReiniciar"
         android:layout_width="100dp"
         android:layout_height="70dp"
-        android:background="@drawable/reset"
+        android:background="@drawable/circle"
+        android:lineSpacingExtra="36sp"
+        android:text="RESET"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.787"
@@ -36,31 +75,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.544" />
 
-    <Button
-        android:id="@+id/btnSube"
-        android:layout_width="100dp"
-        android:layout_height="70dp"
-        android:layout_marginStart="10dp"
-        android:background="@drawable/mas"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.121"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.309" />
 
-    <Button
-        android:id="@+id/btnBaja"
-        android:layout_width="100dp"
-        android:layout_height="70dp"
-        android:layout_marginEnd="10dp"
-        android:background="@drawable/menos"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.813"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.307" />
 
     <Button
         android:id="@+id/btnAyuda"
@@ -79,7 +94,10 @@
         android:layout_width="100dp"
         android:layout_height="70dp"
         android:layout_marginStart="10dp"
-        android:background="@drawable/volver"
+        android:background="@drawable/circle"
+        android:text="BACK"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.119"
@@ -104,4 +122,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.09" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

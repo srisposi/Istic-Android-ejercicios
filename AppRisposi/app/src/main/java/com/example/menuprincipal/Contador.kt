@@ -185,6 +185,8 @@ class Contador : AppCompatActivity() {
                 childUpdates["/mensajes_usuario/$uid/$destino/$usuario/$key"] = postValues
 
                 database.updateChildren(childUpdates)
+
+                ttoas("Sus cuenta: " + usuario + " ha sido guardada, Gracias!")
             }
         }
 
