@@ -51,7 +51,7 @@ class Contador : AppCompatActivity() {
         //val txtUsuario=findViewById<TextView>(R.id.txtUsuario)
         //val txtDestino=findViewById<TextView>(R.id.txtDestino)
         //==============================================================
-        lblContador.text= "Bienvenido al contador " + name2 + "" + password2
+        lblContador.text= "Bienvenido al contador " + name2 + " " + password2
 
 
 

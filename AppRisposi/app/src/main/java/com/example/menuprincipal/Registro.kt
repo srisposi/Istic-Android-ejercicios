@@ -74,9 +74,9 @@ class Registro : AppCompatActivity() {
             val name2 = name
             val password2 = password
             val intent = Intent(this@Registro, Contador::class.java)
-            intent.putExtra("Name",name2)
-            intent.putExtra("Password",password2)
-            //startActivity(intentt)
+            intent.putExtra("Name", "$name2")
+            intent.putExtra("Password", "$password2")
+            startActivity(intent)
 
             //Botón para volver
             val btnAtras = findViewById<Button>(R.id.btnAtras)
