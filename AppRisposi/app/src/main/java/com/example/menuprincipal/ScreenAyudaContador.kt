@@ -4,6 +4,7 @@ import android.content.Intent
 //import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 
@@ -15,8 +16,12 @@ class ScreenAyudaContador : AppCompatActivity() {
 
         val btnOk = findViewById<TextView>(R.id.btnOk) //Declaracion para boton ingresar
         btnOk.setOnClickListener {
-            val ayudaIntent2= Intent(this, Contador::class.java)
-            startActivity(ayudaIntent2)
+            try {
+                val ayudaIntent2 = Intent(this, Contador::class.java)
+                startActivity(ayudaIntent2)
+            }catch (e:Throwable){
+                Toast.makeText(this, "Se produjo un error en la ayuda, Pruebe de nuevo" + e.message, Toast.LENGTH_SHORT).show()
+            }
         }
 
 

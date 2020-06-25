@@ -16,15 +16,6 @@ import kotlinx.android.synthetic.main.activity_contador.*
 
 class Contador : AppCompatActivity() {
 
-    var contador:Int=0
-
-    fun ttoas(mensaje:String){//Funcion para mensaje toast
-
-        var toast = Toast.makeText(this@Contador,"$mensaje", Toast.LENGTH_SHORT)
-        toast.setGravity(Gravity.CENTER,0,0)
-        toast.show()
-    }
-
     //=============================================================
     private lateinit var database: DatabaseReference// ...
     private lateinit var postReference: DatabaseReference
@@ -32,49 +23,39 @@ class Contador : AppCompatActivity() {
     private var postListener: ValueEventListener? = null
     //=============================================================
 
+    var contador: Int = 0
+
+
+    fun ttoas(mensaje: String) {//Funcion para mensaje toast
+
+        var toast = Toast.makeText(this@Contador, "$mensaje", Toast.LENGTH_SHORT)
+        toast.setGravity(Gravity.CENTER, 0, 0)
+        toast.show()
+    }
+
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_contador)
-    //=============================================================
-        val lblContador=findViewById<TextView>(R.id.lblContador)
+
+        //Recibimos las variables de Registro
+        val intent = intent
+        val name2 = intent.getStringExtra("Name")
+        val password2 = intent.getStringExtra("Password")
+
+
+        //=============================================================
+        val lblContador = findViewById<TextView>(R.id.lblContador)
         //val txtId=findViewById<TextView>(R.id.txtId)
         //val txtUsuario=findViewById<TextView>(R.id.txtUsuario)
         //val txtDestino=findViewById<TextView>(R.id.txtDestino)
-    //==============================================================
+        //==============================================================
+        lblContador.text= "Bienvenido al contador " + name2 + "" + password2
 
-    //================================================================
+
+
         /*
-
-        val btnEnviar=findViewById<Button>(R.id.btnGuardar)
-
-        btnEnviar.setOnClickListener {
-            // [START initialize_database_ref]
-            database = FirebaseDatabase.getInstance().reference
-            // [END initialize_database_ref]
-            val key = database.child("mensajes").push().key
-
-            if (key == null) {
-                // Log.w("error", "Couldn't get push key for posts")
-                Toast.makeText(this, "error", Toast.LENGTH_SHORT).show()
-
-            }
-
-            val destino=this.txtDestino.getText().toString()
-            val uid=this.txtId.getText().toString()
-            val usuario=this.txtUsuario.getText().toString()
-            val mensaje= this.txtMensaje.getText().toString()
-            val post = Post(uid, usuario, destino, mensaje)
-            val postValues = post.toMap()
-
-            val childUpdates = HashMap<String, Any>()
-            childUpdates["/mensajes/$destino/$key"] = postValues
-            childUpdates["/mensajes_usuario/$uid/$destino/$key"] = postValues
-
-            database.updateChildren(childUpdates)
-        }
-
-
-    }
     public override fun onStart() {
         super.onStart()
 
@@ -110,19 +91,18 @@ class Contador : AppCompatActivity() {
         // Listen for comments
 
         */
-    //====================================================================
-
+        //====================================================================
 
 
         val botonSumar = findViewById<Button>(R.id.btnSube) //Declaracion para boton ingresar
         btnSube.setOnClickListener {
-            contador = contador +1
+            contador = contador + 1
             lblContador.text = contador.toString()
         }
 
         val btnBaja = findViewById<Button>(R.id.btnBaja) //Declaracion para boton ingresar
         btnBaja.setOnClickListener {
-            contador = contador -1
+            contador = contador - 1
             lblContador.text = contador.toString()
         }
 
@@ -134,7 +114,7 @@ class Contador : AppCompatActivity() {
 
         val btnAyuda = findViewById<TextView>(R.id.btnAyuda) //Declaracion para boton ingresar
         btnAyuda.setOnClickListener {
-            val ayudaIntent= Intent(this, ScreenAyudaContador::class.java)
+            val ayudaIntent = Intent(this, ScreenAyudaContador::class.java)
             startActivity(ayudaIntent)
         }
 
@@ -161,17 +141,64 @@ class Contador : AppCompatActivity() {
 
 
 
-    }
+        //================================================================
 
+
+        val btnGuardar = findViewById<Button>(R.id.btnGuardar)
+
+        btnGuardar.setOnClickListener {
+            // [START initialize_database_ref]
+            database = FirebaseDatabase.getInstance().reference
+            // [END initialize_database_ref]
+            val key = database.child("mensajes").push().key
+
+            if (key == null) {
+                // Log.w("error", "Couldn't get push key for posts")
+                Toast.makeText(this, "error", Toast.LENGTH_SHORT).show()
+
+            }
+
+            val destino = name2
+            val uid = password2
+            val usuario = this.lblContador.getText().toString()
+            //val mensaje= this.txtMensaje.getText().toString()
+
+            val post = Post(uid, destino, password2)
+            val postValues = post.toMap()
+
+            val childUpdates = HashMap<String, Any>()
+            childUpdates["/mensajes/$destino/$usuario/$key"] = postValues
+            childUpdates["/mensajes_usuario/$uid/$destino/$usuario/$key"] = postValues
+
+            database.updateChildren(childUpdates)
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
 }
 
+
 //===========================================================
-/*
+
 // [START post_class]
 @IgnoreExtraProperties
 data class Post(
     var uid: String? = "",
-    var emisor: String? = "",
+    var usuario: String? = "",
     var destino: String? = "",
     var mensaje: String? = "",
     var starCount: Int = 0,
@@ -183,7 +210,7 @@ data class Post(
     fun toMap(): Map<String, Any?> {
         return mapOf(
             "uid" to uid,
-            "emisor" to emisor,
+            "usuario" to usuario,
             "destino" to destino,
             "mensaje" to mensaje
 
@@ -192,5 +219,5 @@ data class Post(
     // [END post_to_map]
 }
 //[END post_class]
- */
+
 //===============================================================

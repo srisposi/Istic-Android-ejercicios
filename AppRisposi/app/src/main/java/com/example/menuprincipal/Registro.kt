@@ -53,6 +53,9 @@ class Registro : AppCompatActivity() {
             val password = this.txtPassword.getText().toString()
             //val usuario=this.txtUsuario.getText().toString()
             //val mensaje= this.txtMensaje.getText().toString()
+
+
+
             val post = Post(name, password)
             val postValues = post.toMap()
 
@@ -63,6 +66,19 @@ class Registro : AppCompatActivity() {
             database.updateChildren(childUpdates)
 
 
+
+
+
+
+            //Paso variables al contador
+            val name2 = name
+            val password2 = password
+            val intent = Intent(this@Registro, Contador::class.java)
+            intent.putExtra("Name",name2)
+            intent.putExtra("Password",password2)
+            //startActivity(intentt)
+
+            //Botón para volver
             val btnAtras = findViewById<Button>(R.id.btnAtras)
             btnAtras.setOnClickListener {
                 val atras = Intent(this, MainActivity::class.java)
