@@ -66,10 +66,6 @@ class Registro : AppCompatActivity() {
             database.updateChildren(childUpdates)
 
 
-
-
-
-
             //Paso variables al contador
             val name2 = name
             val password2 = password
@@ -78,14 +74,12 @@ class Registro : AppCompatActivity() {
             intent.putExtra("Password", "$password2")
             startActivity(intent)
 
-            //Botón para volver
-            val btnAtras = findViewById<Button>(R.id.btnAtras)
-            btnAtras.setOnClickListener {
-                val atras = Intent(this, MainActivity::class.java)
-                startActivity(atras)
-            }
-
-
+        }
+        //Botón para volver
+        val btnAtras = findViewById<Button>(R.id.btnAtras)
+        btnAtras.setOnClickListener {
+            val atras = Intent(this, MainActivity::class.java)
+            startActivity(atras)
         }
 
     }

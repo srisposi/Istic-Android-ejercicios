@@ -51,7 +51,17 @@ class Contador : AppCompatActivity() {
         //val txtUsuario=findViewById<TextView>(R.id.txtUsuario)
         //val txtDestino=findViewById<TextView>(R.id.txtDestino)
         //==============================================================
-        lblContador.text= "Bienvenido al contador " + name2 + " " + password2
+
+
+        if (name2==null && password2==null)
+        {
+            lblContador.text= "Bienvenido Si quiere guardar sus datos registrese"
+
+        }else
+        {
+            lblContador.text= "Bienvenido al contador " + name2 + " " + password2
+        }
+
 
 
 
@@ -142,37 +152,41 @@ class Contador : AppCompatActivity() {
 
 
         //================================================================
-
-
         val btnGuardar = findViewById<Button>(R.id.btnGuardar)
 
         btnGuardar.setOnClickListener {
-            // [START initialize_database_ref]
-            database = FirebaseDatabase.getInstance().reference
-            // [END initialize_database_ref]
-            val key = database.child("mensajes").push().key
+        if (name2==null && password2==null)
+        {
+            ttoas("No se pueden guardar sus puntos porque no esta registrado")
 
-            if (key == null) {
-                // Log.w("error", "Couldn't get push key for posts")
-                Toast.makeText(this, "error", Toast.LENGTH_SHORT).show()
+        }else {
 
+                // [START initialize_database_ref]
+                database = FirebaseDatabase.getInstance().reference
+                // [END initialize_database_ref]
+                val key = database.child("mensajes").push().key
+
+                if (key == null) {
+                    // Log.w("error", "Couldn't get push key for posts")
+                    Toast.makeText(this, "error", Toast.LENGTH_SHORT).show()
+
+                }
+
+                val destino = name2
+                val uid = password2
+                val usuario = this.lblContador.getText().toString()
+                //val mensaje= this.txtMensaje.getText().toString()
+
+                val post = Post(uid, destino, password2)
+                val postValues = post.toMap()
+
+                val childUpdates = HashMap<String, Any>()
+                childUpdates["/mensajes/$destino/$usuario/$key"] = postValues
+                childUpdates["/mensajes_usuario/$uid/$destino/$usuario/$key"] = postValues
+
+                database.updateChildren(childUpdates)
             }
-
-            val destino = name2
-            val uid = password2
-            val usuario = this.lblContador.getText().toString()
-            //val mensaje= this.txtMensaje.getText().toString()
-
-            val post = Post(uid, destino, password2)
-            val postValues = post.toMap()
-
-            val childUpdates = HashMap<String, Any>()
-            childUpdates["/mensajes/$destino/$usuario/$key"] = postValues
-            childUpdates["/mensajes_usuario/$uid/$destino/$usuario/$key"] = postValues
-
-            database.updateChildren(childUpdates)
         }
-
 
 
 
