@@ -4,6 +4,7 @@ import android.content.Intent
 //import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlin.concurrent.thread
@@ -34,11 +35,14 @@ class MainActivity : AppCompatActivity() {
             val regis = Intent(this, Registro::class.java)
             startActivity(regis)
         }
-
-        val btnJugar=findViewById<Button>(R.id.btnJugar)
-        btnJugar.setOnClickListener {
-            val jugar=Intent(this, AdivinarNumero::class.java)
-            startActivity(jugar)
+        try {
+            val btnJugar = findViewById<Button>(R.id.btnJugar)
+            btnJugar.setOnClickListener {
+                val jugar = Intent(this, AdivinarNumero::class.java)
+                startActivity(jugar)
+            }
+        }catch (e:Throwable){
+            Toast.makeText(this, "Se produjo un error al entrar al juego, Pruebe de nuevo" + e.message,Toast.LENGTH_SHORT).show()
         }
 
         val btnLogin=findViewById<Button>(R.id.btnLogin)

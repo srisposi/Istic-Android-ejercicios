@@ -17,6 +17,7 @@
         android:text="GUARDAR"
         android:textColor="@android:color/background_light"
         android:textSize="24sp"
+        android:paddingBottom="7dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -58,6 +59,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.347" />
 
+
     <Button
         android:id="@+id/btnReiniciar"
         android:layout_width="100dp"
@@ -70,18 +72,22 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.787"
+        app:layout_constraintHorizontal_bias="0.813"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.544" />
-
-
 
     <Button
         android:id="@+id/btnAyuda"
         android:layout_width="230dp"
         android:layout_height="80dp"
-        android:background="@drawable/btnayuda"
+        android:background="@drawable/btnredondear"
+        android:paddingBottom="16dp"
+        android:text="AYUDA"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"

@@ -698,6 +698,7 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable ayuda
+drawable botonesjugar
 drawable botonmio
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -711,6 +712,7 @@ drawable btnayuda
 drawable btncontador
 drawable btnjugar
 drawable btnlogin
+drawable btnredondear
 drawable btnregistro
 drawable circle
 drawable common_full_open_on_phone
@@ -845,6 +847,7 @@ id btnBaja
 id btnComoJugar
 id btnContador
 id btnGuardar
+id btnGuardarDatos
 id btnJugar
 id btnLogin
 id btnLoginLogin
@@ -859,7 +862,6 @@ id btnVolver
 id btnVolverJugar
 id btnVolverLogin
 id btnVolverPrincipio
-id button5
 id button6
 id buttonPanel
 id cancel_action
@@ -890,6 +892,7 @@ id editText2
 id editText3
 id editText5
 id editText6
+id editText7
 id edit_query
 id end
 id end_padder
@@ -992,6 +995,7 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textView
 id time
 id title
 id titleDividerNoCustom
@@ -999,6 +1003,7 @@ id title_template
 id top
 id topPanel
 id txtIngNum
+id txtMensajeInicial
 id txtName
 id txtNombreLogin
 id txtPassword
@@ -1082,11 +1087,21 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+mipmap btncontador
+mipmap btnlogin
+mipmap btnregistro
+mipmap contador3
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap jugar
+mipmap jugar2
+mipmap jugar3
+mipmap login3
 mipmap mas
 mipmap menos
 mipmap ok
+mipmap registro
+mipmap registro3
 mipmap reset
 mipmap sumar
 string abc_action_bar_home_description
