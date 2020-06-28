@@ -16,17 +16,14 @@ class MainActivity : AppCompatActivity() {
 
         Thread.sleep(2000)
         setTheme(R.style.AppTheme)
-/*
-        btnRegistro.setOnClickListener {
-            val registroInten = Intent(this,Registro::class.java)
-            startActivity(registroInten)
-        }
-*/
+
+        val btnAyuda=findViewById<Button>(R.id.btnAyuda)
         btnAyuda.setOnClickListener {
             val screenAyudaIntent = Intent(this, ScreenAyuda::class.java)
             startActivity(screenAyudaIntent)
         }
 
+        val btnContador=findViewById<Button>(R.id.btnContador)
         btnContador.setOnClickListener {
             val ContadorIntent = Intent(this, Contador::class.java)
             startActivity(ContadorIntent)
@@ -36,6 +33,18 @@ class MainActivity : AppCompatActivity() {
         btnRegistro.setOnClickListener {
             val regis = Intent(this, Registro::class.java)
             startActivity(regis)
+        }
+
+        val btnJugar=findViewById<Button>(R.id.btnJugar)
+        btnJugar.setOnClickListener {
+            val jugar=Intent(this, AdivinarNumero::class.java)
+            startActivity(jugar)
+        }
+
+        val btnLogin=findViewById<Button>(R.id.btnLogin)
+        btnLogin.setOnClickListener {
+            val LoginIntent=Intent(this, Login::class.java)
+            startActivity(LoginIntent)
         }
 
     }

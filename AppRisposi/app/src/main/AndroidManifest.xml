@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Registro"></activity>
+        <activity android:name=".ComoJugar"></activity>
+        <activity android:name=".AdivinarNumero" />
+        <activity android:name=".QuienSoy" />
+        <activity android:name=".Login" />
+        <activity android:name=".Registro" />
         <activity android:name=".ScreenAyudaContador" />
         <activity android:name=".Contador" />
         <activity android:name=".ScreenAyuda" />
