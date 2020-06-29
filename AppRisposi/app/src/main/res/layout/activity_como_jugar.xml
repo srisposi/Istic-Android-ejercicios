@@ -21,30 +21,269 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <EditText
                 android:id="@+id/editText7"
-                android:layout_width="83dp"
-                android:layout_height="59dp"
-                android:layout_weight="1"
+                android:layout_width="172dp"
+                android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Name" />
+                android:text="Ingrese un número"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="8dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
 
             <TextView
                 android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="57dp"
-                android:layout_weight="1"
-                android:text="TextView" />
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Etiqueta para ingresar el Número"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
         </LinearLayout>
 
-        <LinearLayout
+        <Space
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"></LinearLayout>
+            android:layout_height="18dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="172dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/botonesjugar"
+                android:text="Ingresar" />
+
+            <Space
+                android:layout_width="8dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Botón para Ingresar el Número"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="18dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="172dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/botonesjugar"
+                android:text="AYUDA" />
+
+            <Space
+                android:layout_width="8dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Botón que le da 3 ayudas para adibinr el número"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="18dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="172dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/botonesjugar"
+                android:text="TERMINAR" />
+
+            <Space
+                android:layout_width="8dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Botón para terminar el Juego"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="18dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="172dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/botonesjugar"
+                android:text="COMO JUGAR" />
+
+            <Space
+                android:layout_width="8dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Botón para saber que hace cada elemento"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="18dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="172dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/botonesjugar"
+                android:text="REINICIO" />
+
+            <Space
+                android:layout_width="8dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Botón para comenzar otro Juego"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="18dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="172dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/botonesjugar"
+                android:text="VOLVER" />
+
+            <Space
+                android:layout_width="8dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Botón para volver a la pantalla anterior"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="18dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="172dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/botonesjugar"
+                android:text="GUARDAR" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Botón para guardar los datos del juego"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="18dp" />
+
+        <Button
+            android:id="@+id/btnVolverAyudaJugar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botonesjugar"
+            android:text="VOLVER" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
