@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:2:1-32:12
+ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:2:1-33:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Usuario\.gradle\caches\transforms-2\files-2.1\453e4bd705db45519bc58a28f2049334\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-analytics:17.4.3] C:\Users\Usuario\.gradle\caches\transforms-2\files-2.1\091467d0081f9a7a35e9592dbc129f72\jetified-firebase-analytics-17.4.3\AndroidManifest.xml:2:1-9:12
 MERGED from [com.firebaseui:firebase-ui-database:6.0.2] C:\Users\Usuario\.gradle\caches\transforms-2\files-2.1\61fef636d5b31eba9fb4295c20f5acb5\jetified-firebase-ui-database-6.0.2\AndroidManifest.xml:2:1-13:12
@@ -62,25 +62,25 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Usuario\.grad
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Usuario\.gradle\caches\transforms-2\files-2.1\66d6c5b44d59501f03a1730dbcb4df1a\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Usuario\.gradle\caches\transforms-2\files-2.1\19894a2a2becea51ea3df69e39bd27fe\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Usuario\.gradle\caches\transforms-2\files-2.1\c730b5488f59dff4c37f18f5424dc144\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:2:1-33:12
 	package
 		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:3:5-40
 		INJECTED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:2:1-32:12
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:2:1-33:12
 		INJECTED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:2:1-32:12
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:2:1-33:12
 		INJECTED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:5:5-30:19
+ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:5:5-31:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Usuario\.gradle\caches\transforms-2\files-2.1\453e4bd705db45519bc58a28f2049334\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Usuario\.gradle\caches\transforms-2\files-2.1\453e4bd705db45519bc58a28f2049334\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-analytics:17.4.3] C:\Users\Usuario\.gradle\caches\transforms-2\files-2.1\091467d0081f9a7a35e9592dbc129f72\jetified-firebase-analytics-17.4.3\AndroidManifest.xml:7:5-20
@@ -139,54 +139,58 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Us
 		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.menuprincipal.registroJugar
+ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:12:9-60
+	android:name
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:12:19-48
 activity#com.example.menuprincipal.ComoJugar
-ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:12:9-56
+ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:13:9-47
 	android:name
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:12:19-44
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:13:19-44
 activity#com.example.menuprincipal.AdivinarNumero
-ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:13:9-52
+ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:14:9-52
 	android:name
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:13:19-49
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:14:19-49
 activity#com.example.menuprincipal.QuienSoy
-ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:14:9-46
+ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:15:9-46
 	android:name
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:14:19-43
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:15:19-43
 activity#com.example.menuprincipal.Login
-ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:15:9-43
+ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:16:9-43
 	android:name
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:15:19-40
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:16:19-40
 activity#com.example.menuprincipal.Registro
-ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:16:9-46
+ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:17:9-46
 	android:name
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:16:19-43
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:17:19-43
 activity#com.example.menuprincipal.ScreenAyudaContador
-ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:17:9-57
+ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:18:9-57
 	android:name
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:17:19-54
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:18:19-54
 activity#com.example.menuprincipal.Contador
-ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:18:9-46
+ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:19:9-46
 	android:name
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:18:19-43
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:19:19-43
 activity#com.example.menuprincipal.ScreenAyuda
-ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:19:9-49
+ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:20:9-49
 	android:name
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:19:19-46
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:20:19-46
 activity#com.example.menuprincipal.MainActivity
-ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:20:9-29:20
+ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:21:9-30:20
 	android:theme
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:22:13-47
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:23:13-47
 	android:name
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:21:13-41
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:22:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:24:13-28:29
+ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:25:17-69
+ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:25:25-66
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:27:17-77
+ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:27:27-74
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml:28:27-74
 uses-sdk
 INJECTED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Usuario\AndroidStudioProjects\EJERCICIOS-ISTIC\Istic-Android-ejercicios\AppRisposi\app\src\main\AndroidManifest.xml

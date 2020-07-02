@@ -26,6 +26,7 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.menuprincipal.registroJugar" />
         <activity android:name="com.example.menuprincipal.ComoJugar" />
         <activity android:name="com.example.menuprincipal.AdivinarNumero" />
         <activity android:name="com.example.menuprincipal.QuienSoy" />

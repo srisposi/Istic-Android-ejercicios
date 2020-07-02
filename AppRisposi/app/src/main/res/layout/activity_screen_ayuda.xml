@@ -5,18 +5,23 @@
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/screenayuda"
+    android:background="@drawable/ayuda"
     tools:context=".ScreenAyuda">
 
     <Button
         android:id="@+id/btnVolver"
-        android:layout_width="83dp"
-        android:layout_height="63dp"
-        android:background="@drawable/volver"
+        android:layout_width="98dp"
+        android:layout_height="62dp"
+        android:background="@drawable/botonesjugar"
+        android:text="volver"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintHorizontal_bias="0.051"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.896" />
+        app:layout_constraintVertical_bias="0.97" />
 </androidx.constraintlayout.widget.ConstraintLayout>

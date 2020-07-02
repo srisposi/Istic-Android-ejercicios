@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         try {
             val btnJugar = findViewById<Button>(R.id.btnJugar)
             btnJugar.setOnClickListener {
-                val jugar = Intent(this, AdivinarNumero::class.java)
+                val jugar = Intent(this, registroJugar::class.java)
                 startActivity(jugar)
             }
         }catch (e:Throwable){

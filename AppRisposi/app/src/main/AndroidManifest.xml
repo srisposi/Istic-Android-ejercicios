@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ComoJugar"></activity>
+        <activity android:name=".registroJugar"></activity>
+        <activity android:name=".ComoJugar" />
         <activity android:name=".AdivinarNumero" />
         <activity android:name=".QuienSoy" />
         <activity android:name=".Login" />
